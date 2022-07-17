@@ -15,7 +15,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 API_ID = API_ID
 API_HASH = API_HASH 
-LOG_CHAT = LOG_CHAT
+LOG_GROUP = LOG_CHAT
 SUDO_USERS = SUDO_USERS
 DB_URL = DB_URL
 
@@ -43,7 +43,7 @@ else:
     MONGO_DB = "https://visionbypankaj:Rf2BMcooABO6lP6K@cluster0.dgwig.mongodb.net/?retryWrites=true&w=majority"
 
 if LOG_CHAT:
-    Owner = LOG_CHAT
+    Owner = LOG_GROUP
 else:
     Owner = 777000
 
